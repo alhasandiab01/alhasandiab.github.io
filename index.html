@@ -2,45 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Alhasan Diab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alhasan Diab - CV</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f5f5f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      font-family: Arial, sans-serif;
       margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
     }
     .container {
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 400px;
     }
-    h1 {
-      margin-bottom: 10px;
+    h1, h2, h3 {
+      color: #004080;
     }
-    p {
-      margin: 10px 0;
+    .section {
+      margin-bottom: 2rem;
+    }
+    .contact {
+      margin-bottom: 1rem;
     }
     a {
-      color: #0077cc;
-      text-decoration: none;
+      color: #004080;
+    }
+    .job, .education {
+      margin-bottom: 1.2rem;
+    }
+    .job-title, .degree {
+      font-weight: bold;
+    }
+    .job-meta, .edu-meta {
+      font-style: italic;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Hi, I’m Alhasan Diab 👋</h1>
-    <p>Professional Freelance Translator</p>
-    <p>Languages: English, Arabic, German</p>
-    <p>📬 <a href="mailto:alhasandiab@alhasandiab.com">alhasandiab@alhasandiab.com</a></p>
-    <p>💼 Portfolio coming soon!</p>
+    <h1>Alhasan Diab</h1>
+    <p class="contact">
+      📍 Syria, Damascus<br>
+      📧 <a href="mailto:alhasandiab@alhasandiab.com">alhasandiab@alhasandiab.com</a><br>
+      🌐 <a href="https://www.alhasandiab.com">www.alhasandiab.com</a>
+    </p>
+
+    <div class="section">
+      <h2>Profile</h2>
+      <p>Multilingual freelance translator and localization expert with extensive experience in translating, editing, and proofreading across English, Arabic, and German. Proven ability to work independently and meet tight deadlines while delivering high-quality, culturally accurate translations.</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Translation (EN ↔ AR, DE ↔ AR)</li>
+        <li>Localization and proofreading</li>
+        <li>CAT tools: Trados, MemoQ, Wordfast</li>
+        <li>Subtitling & transcription</li>
+        <li>Office Suite, Adobe InDesign, Photoshop</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>Arabic – Native</li>
+        <li>English – Fluent</li>
+        <li>German – Fluent</li>
+        <li>French – Basic</li>
+        <li>Dutch – Basic</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="job-title">Freelance Translator (Remote)</div>
+        <div class="job-meta">2019 – Present</div>
+        <p>Providing translation and localization services to global clients in marketing, tech, business, and legal sectors. Handling time-sensitive and high-volume projects independently.</p>
+      </div>
+      <div class="job">
+        <div class="job-title">In-house Translator – ABC Translation Agency</div>
+        <div class="job-meta">Damascus, Syria | 2016 – 2019</div>
+        <p>Translated a wide range of legal and technical documents. Proofread junior translators' work and coordinated with clients to meet project expectations.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="education">
+        <div class="degree">BA in English Literature & Translation</div>
+        <div class="edu-meta">Damascus University – 2016</div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
